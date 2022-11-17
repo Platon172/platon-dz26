@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
+}
+.header-links {
+  display: flex;
+  gap: 55px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #95e1d3;
+}
+
+.services {
+  width: 375px;
+  height: 160px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.info-block-name {
+  font-family: "Kaushan Script", cursive;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+  text-align: center;
+}
+
+.info-block-p {
+  text-transform: uppercase;
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+}
+
+.info-block-button {
+  margin: auto;
+  width: 60px;
+  height: 4px;
+  background: #f38181;
+
+  margin-top: 40px;
+}
+
+.items {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 110px;
+}
+
+.item {
+  width: 330pxpx;
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.item-icon {
+  margin-right: 14px;
+}
+
+.item-text {
+  font-family: "Roboto";
+  color: #b6b6b6;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.info-block {
+  width: 850px;
+  margin: auto;
+  margin-top: 80px;
+  height: 221px;
+}
+
+.info-block-paragraf {
+  font-weight: 400;
+  font-size: 15px;
+
+  text-align: center;
+  color: #b6b6b6;
+  margin-top: 45px;
+}
+
+.container {
+  width: 1200px;
+  height: 546px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.photo1 {
+  width: 380px;
+  height: 470px;
+}
+
+.photo {
+  width: 380px;
+  height: 470px;
+  object-fit: cover;
+}
+
+.name-photo {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+
+  color: #333333;
+}
+
+.text-photo {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 11px;
+  text-align: center;
+
+  color: #b6b6b6;
+}
